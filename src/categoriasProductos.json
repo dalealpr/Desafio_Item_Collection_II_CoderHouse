@@ -1,0 +1,7 @@
+[
+    {"id": 2001, "nombre":"Guitarras Acusticas", "ruta":"/categoria/guitarras-acusticas"},
+    {"id": 2002, "nombre":"Guitarras Electricas", "ruta":"/categoria/guitarras-electricas"},
+    {"id": 2003, "nombre":"Bajos", "ruta":"/categoria/bajos"},
+    {"id": 2004, "nombre":"Baterias", "ruta":"/categoria/baterias"},
+    {"id": 2005, "nombre":"Teclados", "ruta":"/categoria/teclados"}
+]

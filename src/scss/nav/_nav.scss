@@ -1,0 +1,34 @@
+//NavPrincipal Links Linea 
+.nav_a:after {
+    content: "";
+    position: absolute;
+    flex-flow: column;
+    margin-top: 50px;
+    width: 0px;
+    height: 3px;
+    top: 0;
+    background: #ffffff;
+    transition: width 0.3s;
+
+
+}
+
+.nav_a:hover::after {
+    width: 100px;
+}
+
+.nav_a_list {
+    color: #ffffff;
+}
+
+//NavCategorias Linea
+.nav_a_list:hover {
+    color: #ffee00;
+}
+.menu_vertical{
+    display: none;
+}
+
+.menu_horizontal li:hover .menu_vertical{
+    display: flex;
+}
