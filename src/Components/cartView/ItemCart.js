@@ -30,7 +30,7 @@ const ItemCart = ({ product }) => {
 //ESTILOS CSS
 const styles = {
     itemcartC: {
-        width: '70%',
+        width: '95%',
         padding: '20px 0',
         margin: '20px 0',
         borderBottom: '2px solid #F4D03F',

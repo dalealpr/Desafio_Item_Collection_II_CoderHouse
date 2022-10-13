@@ -35,7 +35,7 @@ const borrarProducto = (id) => setCart(cart.filter(product => product.id !== id)
 
 
 //Precio Total 
-const preciTotal = () => {
+const precioTotal = () => {
     return cart.reduce((prev,act)=> prev + act.stock * act.precio, 0)
 }
 
@@ -51,7 +51,7 @@ const totalProductos = () => cart.reduce((acumulador, productoActual)=> acumulad
             estaEnElCarrito,
             borrarProducto,
             agregarProducto,
-            preciTotal,
+            precioTotal,
             totalProductos,
             cart
 
